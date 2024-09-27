@@ -1,0 +1,493 @@
+/*#1E1E1E ->black
+#282828
+#FF001D -> red;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+  font-family: 'Manrope', sans-serif;
+}
+
+/* *** Hero Section Start *** */
+
+.hero-section {
+  margin-top: 3%;
+}
+
+.hero {
+  width: 95%;
+  height: 680px;
+  margin: 0 auto;
+  background-color: aliceblue;
+  border-radius: 20px;
+  background-image: url('./images/Background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-section {
+  width: 100%;
+}
+
+/* *** Header Section Start *** */
+
+.header {
+  width: 90%;
+  height: 130px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #282828;
+}
+
+.header-left-side {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-right-side {
+  width: 50%;
+}
+
+.header-right-side ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-right-side ul li {
+  list-style: none;
+}
+
+.header-right-side ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  border: none;
+  background-color: #ff001d;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.header-btn i {
+  margin-right: 3px;
+}
+
+.header-btn:hover {
+  background-color: transparent;
+  border: 1px solid #282828;
+}
+
+/* *** Header Section End *** */
+
+.hero-content {
+  padding-top: 8%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero-content .hero-title {
+  color: #fff;
+  font-size: 3.8rem;
+  line-height: 4.1rem;
+  font-weight: 400;
+  width: 55%;
+}
+
+.btn-container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  width: 43%;
+  justify-content: space-between;
+}
+
+.btn-container .hero-btn-color {
+  padding: 12px 40px;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.hero-btn-color:hover {
+  background-color: transparent;
+  border: 1px solid #282828;
+}
+
+.hero-btn-color i {
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.btn-container .hero-btn {
+  display: flex;
+  align-items: center;
+  padding: 12px 40px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  background-color: transparent;
+  border: 1px solid #282828;
+}
+
+.hero-btn:hover {
+  border: none;
+  background-color: #ff001d;
+}
+
+.hero-btn img {
+  margin-right: 10px;
+  width: 20px;
+}
+
+/* *** Hero Section End *** */
+
+/* *** Car Service Section Start *** */
+
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 25px;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.single-service {
+  width: 32%;
+  height: 244px;
+  background-color: #1e1e1e;
+  border-radius: 28px;
+  position: relative;
+}
+
+.bg-car1 {
+  background-image: url('./images/car1.png');
+  background-size: 254px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bg-car2 {
+  background-image: url('./images/car2.png');
+  background-size: 258px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.bg-car3 {
+  background-image: url('./images/car3.png');
+  background-size: 254px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.bg-car4 {
+  background-image: url('./images/car4.png');
+  background-size: 254px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.bg-car5 {
+  background-color: #ff001d;
+  background-image: url('./images/car5.png');
+  background-size: 254px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.bg-car6 {
+  background-image: url('./images/car6.png');
+  background-size: 254px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.single-service-title {
+  padding: 30px 40px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+.bg-car3 .single-service-title {
+  width: 30%;
+}
+
+.bg-car4 .single-service-title {
+  width: 60%;
+}
+
+.bg-car5 .single-service-title {
+  width: 30%;
+}
+
+.promotion {
+  color: #fff;
+  background-color: #ff001d;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  position: absolute;
+  top: 35px;
+  right: 40px;
+}
+
+.promotion p {
+  font-size: 0.75rem;
+  padding: 4px 0px;
+}
+
+.car5-promotion-black {
+  background-color: #141414;
+}
+
+.price {
+  padding: 0px 40px;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+
+.small__letter {
+  font-size: 0.9rem;
+}
+/* *** Car Service Section End *** */
+
+/* *** Selected Work Section Start *** */
+
+.selected-work {
+  margin-top: 20px;
+}
+
+.selected-work__section {
+  width: 95%;
+  min-height: 600px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding-left: 7%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.selected-work__title {
+  font-size: 3.4rem;
+  margin-bottom: 20px;
+}
+
+.selected-work__cards {
+  width: 90%;
+  min-height: 400px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.selected-work__cards--single {
+  width: 22.8%;
+  min-height: 300px;
+}
+
+.selected-work__img {
+  width: 100%;
+  height: 204px;
+}
+
+.selected-work__img--bg1 {
+  background-image: url('./images/selected-car-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.selected-work__img--bg2 {
+  background-image: url('./images/selected-car-2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.selected-work__img--bg3 {
+  background-image: url('./images/selected-car-3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.selected-work__img--bg4 {
+  background-image: url('./images/selected-car-4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.selected-work__para {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.selected-work__learnMore {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.learnMore__icon i {
+  font-size: 0.8rem;
+}
+
+.learnMore__para {
+  font-size: 0.9rem;
+}
+
+.selected-work__social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selected-work__social-media {
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  width: 90%;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+.selected-work__social-media--single {
+  width: 22.8%;
+}
+
+.socialMedia__single {
+  background-color: #fff;
+  height: 60px;
+  border-radius: 10px;
+  width: 24%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-media__para {
+  font-weight: 500;
+}
+
+.socialMedia__img {
+  width: 25px;
+  height: 25px;
+}
+/* *** Selected Work Section End *** */
+
+/* *** Footer Section Start *** */
+
+.footer-section {
+  width: 95%;
+  min-height: 500px;
+  margin: 0 auto;
+  background-color: #ff001d;
+  border-radius: 30px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 5% 7%;
+}
+
+.footer__left {
+  width: 45%;
+}
+
+.footer__title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer__para {
+  font-size: 1.1rem;
+  width: 71%;
+}
+
+.footer__btns {
+  margin-top: 34%;
+}
+
+.footer__btn {
+  text-decoration: none;
+  margin-right: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 35px;
+  border-radius: 10px;
+}
+
+.footer__btn--bg {
+  background-color: #fff;
+  color: #000;
+}
+
+.footer__right {
+  width: 55%;
+  padding-left: 5%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+
+.footer__right-single {
+  width: 45%;
+}
+
+.footer__img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.footer__rightTitle {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.footer__rightPara {
+  font-size: 0.9rem;
+}
+/* *** Footer Section End *** */
